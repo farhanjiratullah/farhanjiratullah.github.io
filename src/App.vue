@@ -75,7 +75,10 @@
                 </button>
 
                 <a
-                    href="#"
+                    href="/Farhan_Jiratullah_Full_Stack_Developer_Resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    download
                     class="ml-2 hidden items-center gap-2 rounded-full bg-ink px-4.5 py-2.5 text-sm font-semibold text-bg transition-opacity hover:opacity-85 dark:bg-ink-dark dark:text-bg-dark lg:flex"
                 >
                     Resume <IconDownload />
@@ -121,7 +124,10 @@
                 </ul>
                 <div class="mt-4">
                     <a
-                        href="#"
+                        href="/Farhan_Jiratullah_Full_Stack_Developer_Resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        download
                         class="flex items-center justify-center gap-2 rounded-full bg-ink px-4.5 py-3.5 text-[15px] transition-opacity hover:opacity-85 font-semibold text-bg dark:bg-ink-dark dark:text-bg-dark"
                     >
                         Resume <IconDownload />
