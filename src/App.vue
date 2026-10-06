@@ -1304,7 +1304,7 @@
             category: "Enterprise system",
             scope: "Team project",
             thumbLabel: "ERP dashboard screenshot",
-            thumb: "/erp-intect/featured-image.png",
+            thumb: "/erp-intect/mockup-showcase-erp-intect.png",
             summary:
                 "An enterprise resource planning system supporting core business processes: purchasing, inventory, assembly, sales and service management. I contributed across the stack as part of the development team, with Vue.js components on selected pages for more interactive workflows.",
             features: [
@@ -1314,7 +1314,7 @@
                 "Sales Order",
                 "Service Ticket",
             ],
-            tech: "Laravel · PHP · Blade · Vue.js · MySQL · JavaScript",
+            tech: "Laravel · PHP · Blade · Vue.js · MySQL · Docker · JavaScript",
         },
         {
             key: "cms",
@@ -1323,7 +1323,7 @@
             category: "Content platform",
             scope: "University project",
             thumbLabel: "CMS admin screenshot",
-            thumb: "/cms-unpam/featured-image.png",
+            thumb: "/cms-unpam/mockup-showcase-cms-unpam.png",
             summary:
                 "A content management system built to manage and organize content for Universitas Pamulang. I focused on backend development — database design, REST APIs, and the logic behind unit, post, menu and page management.",
             features: [
@@ -1333,7 +1333,7 @@
                 "Pop-up Info",
                 "Gallery",
             ],
-            tech: "Laravel · PHP · MySQL · REST API",
+            tech: "Laravel · PHP · MySQL · Docker · REST API",
         },
     ];
 
@@ -1350,7 +1350,7 @@
             features:
                 "Purchase Order · Inventory & Stock Movement · Assembly Order · Sales Order · Service Ticket",
             result: "Core business processes run in one place, with stock movement and order status visible to the teams that depend on them.",
-            tech: "Laravel · PHP · Blade · Vue.js · MySQL · JavaScript",
+            tech: "Laravel · PHP · Blade · Vue.js · MySQL · Docker · JavaScript",
             siteLabel: "Private repository",
             siteUrl: "https://intect.id",
             hasSite: true,
@@ -1361,6 +1361,11 @@
                     label: "Staff dashboard",
                 },
                 { src: "/erp-intect/beranda.png", label: "Home" },
+                { src: "/erp-intect/products.png", label: "Products" },
+                {
+                    src: "/erp-intect/product-detail.png",
+                    label: "Product Detail",
+                },
                 {
                     src: "/erp-intect/index purchase order.png",
                     label: "Purchase order list",
@@ -1387,13 +1392,15 @@
             features:
                 "Unit Management · Post Management · Menu Management · Page Management · Pop-up Information · Gallery Management",
             result: "Editors manage content through one interface, with a documented API the front end consumes.",
-            tech: "Laravel · PHP · MySQL · REST API",
+            tech: "Laravel · PHP · MySQL · REST API · Docker",
             siteLabel: "Private repository",
             siteUrl: "https://www.unpam.ac.id",
             hasSite: true,
             gallery: [
                 { src: "/cms-unpam/login.png", label: "Login" },
                 { src: "/cms-unpam/beranda.png", label: "Home" },
+                { src: "/cms-unpam/posts.png", label: "Posts" },
+                { src: "/cms-unpam/post detail.png", label: "Post Detail" },
                 { src: "/cms-unpam/unit profile.png", label: "Unit profile" },
                 { src: "/cms-unpam/index post.png", label: "Post list" },
                 { src: "/cms-unpam/create post.png", label: "Create post" },
@@ -1408,22 +1415,24 @@
             title: "Full Stack Developer",
             company: "CV Intect Teknologi Sejahtera (Internship) · ERP Intect",
             points: [
-                "Developed and maintained ERP modules across purchasing, inventory, assembly, sales and service.",
-                "Built interactive Vue.js components on selected pages within a Laravel/Blade application.",
-                "Worked with MySQL schema and queries supporting stock movement and order workflows.",
+                "Contributed as part of a development team to develop and deploy an Enterprise Resource Planning (ERP) system covering Purchase Order, Inventory & Stock Movement, Assembly Order, Sales Order, and Service Ticket modules.",
+                "Developed and integrated frontend interfaces using Laravel Blade and Vue.js components, while implementing backend logic, business processes, and database operations using Laravel and MySQL.",
+                "Implemented Role-Based Access Control (RBAC) with 5 roles—Super Admin, Chair, Manager, Staff, and Technician—along with role-specific dashboards and access to relevant system functionalities.",
+                "Developed 5 exportable reports, including Purchasing, Production, Inventory, Sales, and Service reports, to provide structured business information and support decision-making processes.",
             ],
-            tech: "Laravel · Vue.js · PHP · MySQL",
+            tech: "Laravel · Vue.js · PHP · MySQL · Docker",
         },
         {
             period: "May 2024 - May 2025",
             title: "Backend Developer",
             company: "PINTER — Universitas Pamulang (Internship) · CMS UNPAM",
             points: [
-                "Implemented backend features for content, menu, page and gallery management.",
-                "Designed database structures and developed REST APIs consumed by the CMS front end.",
-                "Maintained system functionality and fixed defects reported by content editors.",
+                "Developed and implemented CMS features using Laravel and MySQL, including REST APIs, to support posts, dynamic menus, dynamic pages, and curricula across 74 units, including faculties, majors, and institutes.",
+                "Built and supported content management workflows for 50+ published posts across multiple units, with 1.100+ total views recorded within a 7-day period.",
+                "Implemented Role-Based Access Control (RBAC) with Admin, Structural, and Unit roles to provide role-specific access and permissions across the CMS.",
+                "Integrated Single Sign-On (SSO) authentication with the Sasmita Group HRIS internal application to streamline user login and authentication within the CMS.",
             ],
-            tech: "Laravel · PHP · MySQL · REST API",
+            tech: "Laravel · PHP · MySQL · REST API · Docker",
         },
     ];
 
