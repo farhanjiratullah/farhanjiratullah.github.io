@@ -1441,16 +1441,6 @@
             name: "Frontend",
             items: [
                 {
-                    name: "Vue.js",
-                    slug: "vuedotjs",
-                    desc: "Progressive JavaScript framework for reactive interfaces",
-                },
-                {
-                    name: "JavaScript",
-                    slug: "javascript",
-                    desc: "Core language behind interactive web behaviour",
-                },
-                {
                     name: "HTML",
                     slug: "html5",
                     desc: "Semantic, accessible document structure",
@@ -1461,6 +1451,11 @@
                     desc: "Layout, responsive design and motion",
                 },
                 {
+                    name: "JavaScript",
+                    slug: "javascript",
+                    desc: "Core language behind interactive web behaviour",
+                },
+                {
                     name: "Tailwind CSS",
                     slug: "tailwindcss",
                     desc: "Utility-first CSS framework for fast, consistent UI",
@@ -1469,6 +1464,16 @@
                     name: "Bootstrap",
                     slug: "bootstrap",
                     desc: "Component and grid framework for rapid layouts",
+                },
+                {
+                    name: "Vue.js",
+                    slug: "vuedotjs",
+                    desc: "Progressive JavaScript framework for reactive interfaces",
+                },
+                {
+                    name: "Nuxt.js",
+                    slug: "nuxt",
+                    desc: "Server-side rendering and static site generation for Vue.js",
                 },
             ],
         },
@@ -1524,6 +1529,11 @@
                     name: "Docker",
                     slug: "docker",
                     desc: "Containerized, reproducible dev environments",
+                },
+                {
+                    name: "RabbitMQ",
+                    slug: "rabbitmq",
+                    desc: "Message broker for asynchronous communication",
                 },
             ],
         },
