@@ -1506,6 +1506,11 @@
                     desc: "Relational database — schema design and indexing",
                 },
                 {
+                    name: "PostgreSQL",
+                    slug: "postgresql",
+                    desc: "Relational database — JSONB, CTEs and advanced query capabilities",
+                },
+                {
                     name: "SQL",
                     glyph: "DB",
                     desc: "Queries, joins and aggregations for reporting",
