@@ -234,7 +234,7 @@
                     <p
                         class="m-0 font-mono text-xs tracking-wide text-ink/45 dark:text-ink-dark/45"
                     >
-                        Laravel · Vue.js · PHP · MySQL · REST API
+                        Laravel · Vue.js · Nuxt.js · MySQL · PostgreSQL
                     </p>
                 </div>
             </div>
@@ -605,7 +605,7 @@
                             <img
                                 v-if="tech.slug"
                                 :src="skillIcon(tech)"
-                                alt=""
+                                :alt="tech.name"
                                 width="18"
                                 height="18"
                                 loading="lazy"
@@ -1447,7 +1447,7 @@
                 },
                 {
                     name: "CSS",
-                    slug: "css",
+                    slug: "css3",
                     desc: "Layout, responsive design and motion",
                 },
                 {
@@ -1467,7 +1467,7 @@
                 },
                 {
                     name: "Vue.js",
-                    slug: "vuedotjs",
+                    slug: "vuejs",
                     desc: "Progressive JavaScript framework for reactive interfaces",
                 },
                 {
@@ -1498,7 +1498,7 @@
             ],
         },
         {
-            name: "Database",
+            name: "Database & Caching",
             items: [
                 {
                     name: "MySQL",
@@ -1511,6 +1511,11 @@
                     desc: "Relational database — JSONB, CTEs and advanced query capabilities",
                 },
                 {
+                    name: "Redis",
+                    slug: "redis",
+                    desc: "In-memory key-value store for caching and pub/sub",
+                },
+                {
                     name: "SQL",
                     glyph: "DB",
                     desc: "Queries, joins and aggregations for reporting",
@@ -1518,7 +1523,22 @@
             ],
         },
         {
-            name: "Tools",
+            name: "Testing",
+            items: [
+                {
+                    name: "Pest",
+                    slug: "php",
+                    desc: "The elegant testing framework for PHP developers and AI agents",
+                },
+                {
+                    name: "PHPUnit",
+                    slug: "php",
+                    desc: "PHP testing framework for unit and feature tests",
+                },
+            ],
+        },
+        {
+            name: "Tools & DevOps",
             items: [
                 {
                     name: "Git",
@@ -1539,6 +1559,21 @@
                     name: "RabbitMQ",
                     slug: "rabbitmq",
                     desc: "Message broker for asynchronous communication",
+                },
+            ],
+        },
+        {
+            name: "Operating Systems",
+            items: [
+                {
+                    name: "Linux",
+                    slug: "linux",
+                    desc: "Open-source operating system",
+                },
+                {
+                    name: "Windows",
+                    slug: "windows11",
+                    desc: "Proprietary operating system",
                 },
             ],
         },
@@ -1630,13 +1665,7 @@
     /* Skills                                                           */
     /* ---------------------------------------------------------------- */
     function skillIcon(tech) {
-        const color =
-            hoverSkill.value === tech.name
-                ? "4F46E5"
-                : dark.value
-                  ? "cbd5e1"
-                  : "111318";
-        return "https://cdn.simpleicons.org/" + tech.slug + "/" + color;
+        return `https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${tech.slug}/${tech.slug}-original.svg`;
     }
 
     /* ---------------------------------------------------------------- */
